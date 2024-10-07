@@ -19,7 +19,7 @@ NOTE: Notice how we can use Playbooks from the same Project in different Job Tem
 .☑️ Task 1 - Creation of the "Extended services" Job Template
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 
 . Click the *Templates* link in the *Resources* section of the sidebar
@@ -39,7 +39,7 @@ NOTE: In the btn:[Controller] tab
 .☑️ Task 2 - Launch the "Extended services" Job Template
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . Click the *Templates* link in the *Resources* section of the sidebar
 . You can launch it from this list by clicking the *Rocket* icon next to each of the Job Templates
@@ -54,7 +54,7 @@ NOTE: In the btn:[Controller] tab
 .☑️ Task 3 - Creation of the "Set motd" Job Template
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 * Use the instructions from the previous task to create the new *Set motd* Job Template and use the *motd_facts.yml* playbook also found in the *Additional playbooks* project.
 =====
@@ -64,7 +64,7 @@ NOTE: In the btn:[Controller] tab
 .☑️ Task 4 - Launch the "Set motd" Job Template
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . Click the *Templates* link in the *Resources* section of the sidebar
 . You can launch it from this list, by clicking the *Rocket* icon next to each of the Job Templates

@@ -14,7 +14,7 @@ In this new challenge, we are going to create a second project named *Additional
 .☑️ Task 1 - Creating the second Project
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 
 . Click the *Projects* link in the *Resources* section of the sidebar
@@ -35,7 +35,7 @@ NOTE: In the btn:[Controller] tab
 .☑️ Task 2 - Verify the new Project synced successfully
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . After saving, you should be taken to the *Details* of the project we just created
 . The *Last Job Status* should display *Running* in blue, give it a few seconds

@@ -13,7 +13,7 @@ Now that we have created our Inventory, Projects and Job Templates, as well as r
 .☑️ Task 1 - Review the Dashboard view
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 
 . Visit the *Dashboard* view and notice the difference when we first started. You should be seeing 4 hosts, 2 inventories and 3 projects. Also, you will notice a green line in the graph, showing the successful executions of our Job Templates.
@@ -28,7 +28,7 @@ image::dashboard-review.png[dashboard-review.png, 70%]
 .☑️ Task 2 - Review the Jobs view
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . Another way to look at the executed jobs is to go to the *Jobs* link in the sidebar, under the *Views* section.
 
@@ -42,7 +42,7 @@ image::jobs-review.png[jobs-review.png, 70%]
 .☑️ Task 3 - Review the Activities Stream view
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . In the *Activities Stream* view you will see the individual *Events* that are executed as part of our different tasks. You will notice this are more granular and include the user who run them.
 +

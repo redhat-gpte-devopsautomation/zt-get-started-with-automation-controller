@@ -21,7 +21,7 @@ We will be changing the index.html we deployed previously for a new one.
 .☑️ Task 1 - Creation of the Job Template
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . Click the *Templates* link in the *Resources* section of the sidebar
 . Click the *Add* dropdown button and select *Add job template*

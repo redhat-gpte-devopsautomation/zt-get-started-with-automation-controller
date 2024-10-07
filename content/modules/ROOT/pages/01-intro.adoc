@@ -15,13 +15,23 @@ Before we begin, some basic tips to improve your lab experience:
 
 . In the left sidebar, you will find the different sections. In each chapter, there will be an introduction to the challenge and the related tasks below. The sections can be collapsed and expanded by clicking on them.
 
-. When we refer to the btn:[Controller], btn:[VSCode Editor] or btn:[>_Controller CLI] tabs, we mean the ones at the top bar. 
+. When we refer to the btn:[VSCode Editor] or btn:[>_Controller CLI] tabs, we mean the ones at the top bar. 
 
-* btn:[Controller] will show Automation Controller Web UI where you can experience the Ansible Automation Controller.
+// * btn:[Controller] will show Automation Controller Web UI where you can experience the Ansible Automation Controller.
 * btn:[>_Controller CLI] will show the **Visual Studio Code** screen where you can edit the files.
 * btn:[>_Controller CLI] one will show a command line interface (CLI) or *Terminal* to run the playbooks and checks.
 
-. Each "box" for playbooks and commands has a copy & paste feature, where if you click on the box, the content will be copied to the clipboard. You can paste this into the VSCode Editor if you run into problems typing.
+. When we refer to the *Automation Controller browser tab*, we mean a new browser tab logged into the Automation Controller using the credentials provided below.
++
+.Automation Controller login details:
+[%autowidth]
+|===
+| Controller Url | https://{hostname}:8443[window=_blank]
+| Username | `admin`
+| Password| `{ssh_password}`
+|===
+
+. Each "box" for playbooks and commands has a copy & paste feature, where if you click on the box, the content will be copied to the clipboard. You can paste btn:[Shift+Alt+V] this into the VSCode Editor if you run into problems typing.
 
 . When you finish with a challenge (or chapter), you need to click the image:next.png[Next, 50] button to move to the next. This will review / validate the steps.
 

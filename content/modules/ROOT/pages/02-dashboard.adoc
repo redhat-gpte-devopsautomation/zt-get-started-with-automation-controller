@@ -2,6 +2,7 @@
 :experimental:
 :imagesdir: ../assets/images
 
+
 = 1.0 - Introduction to Automation Controller
 
 
@@ -11,12 +12,17 @@ Automation controller, formerly known as Ansible Tower, allows users of Red Hat 
 
 In the following challenges we will build upon the work from *Writing your first playbook* and show you how to run your Ansible playbooks through the web-UI instead of `ansible-navigator` and the command line.
 
-The screen on the left shows the login screen. You can log in with the following credentials and then continue on to the tasks:
+You can log in the Automation Controller with the following url & credentials and then continue on to the tasks:
 
 [IMPORTANT]
 ====
-* Username: `admin`
-* Password: `ansible123!`
+.Automation Controller login details:
+[%autowidth]
+|===
+| Controller Url | https://{hostname}:8443[window=_blank]
+| Username | `admin`
+| Password| `{ssh_password}`
+|===
 ====
 
 == Hands-On Experience
@@ -26,7 +32,7 @@ The screen on the left shows the login screen. You can log in with the following
 [%collapsible]
 =====
 
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 * Explore the Dashboard view.  Currently the Dashboard wont show much information due to the lack of playbooks and hosts, but you will be able to visit again once you finished the lab and notice the difference.
 
@@ -48,7 +54,7 @@ NOTE: If you click any of them it will take you to the corresponding section. We
 .☑️ Task 2 - Explore the inventories section
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 * An *Inventory* is a collection of hosts against which playbooks may be launched, the same as an Ansible inventory file you might know from working with Ansible on the command line.
 +
@@ -62,7 +68,7 @@ NOTE: In the btn:[Controller] tab
 .☑️ Task 3 - Explore the projects section
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 * *Projects* are logical groups of Ansible playbooks in automation controller. These playbooks usually reside in a source code version control system like Git (and platforms as Github or Gitlab). With *Projects* we can reference a repository or directory with one or several playbooks, that we will later use.
 

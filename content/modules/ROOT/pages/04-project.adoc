@@ -16,7 +16,7 @@ In this challenge, you will create your first *Project* which will import a Gith
 .☑️ Task 1 - Creation of the Project
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . Click the *Projects* link in the *Resources* section of the sidebar
 . Click the *Add* button
@@ -37,7 +37,7 @@ https://github.com/leogallego/instruqt-wyfp.git
 .☑️ Task 2 - Verify the new Project synced successfully
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . Click the *Projects* link in the *Resources* section of the sidebar
 . Verify that the *Status* for our *Apache playbooks* project is green and reads *Successful*

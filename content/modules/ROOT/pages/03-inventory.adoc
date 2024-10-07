@@ -15,7 +15,7 @@ In automation controller you will be able to run multiple playbooks against thes
 .☑️ Task 1 - Creation of the Inventory
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . On the side navigation bar, under the *Resources* section, click on *Inventories*
 . Click on the blue *Add* button
@@ -30,7 +30,7 @@ NOTE: In the btn:[Controller] tab
 .☑️ Task 2 - Add Hosts to the Lab-Inventory
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 NOTE: If you are not in the  *Lab-Inventory*, click on it again to edit it.
 
@@ -47,7 +47,7 @@ NOTE: If you are not in the  *Lab-Inventory*, click on it again to edit it.
 .☑️ Task 3 - Create the [web] group in Lab-Inventory
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . On the sidebar, go to *Inventories* and click on  the *Lab-Inventory*
 . On the tab bar of *Lab-Inventory*, click on *Groups*
@@ -64,7 +64,7 @@ NOTE: you don't need to input the *[ ]* like you would in an inventory file.
 .☑️ Task 4 - Add node1 and node2 to the [web] group in Lab-Inventory
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . Click on the *Hosts* tab on the top menu of the *web* group
 . Click *Add existing host*. A pop up will appear.

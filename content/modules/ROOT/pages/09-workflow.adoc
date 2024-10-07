@@ -22,7 +22,7 @@ NOTE: Remember, do not confuse a *Job Template* with a *Jinja template*, or now 
 .☑️ Task 1 - Creating a Workflow Template
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . Click the *Templates* link in the *Resources* section of the sidebar
 . Click the *Add* dropdown button and select *Add workflow template*
@@ -49,7 +49,7 @@ NOTE: In the btn:[Controller] tab
 .☑️ Task 2 - Launch the new Workflow
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . Click the *Templates* link in the *Resources* section of the sidebar
 . You can launch the Workflow from this list by clicking the *Rocket* icon, or
@@ -63,7 +63,7 @@ NOTE: In the btn:[Controller] tab
 .☑️ Task 3 - Success or failure? Challenge time!
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . If it failed, why did it fail? Click the red *Failed* and read the output message.
 . It reports the playbook couldn't find the destination hosts or group in the inventory

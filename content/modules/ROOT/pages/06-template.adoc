@@ -17,7 +17,7 @@ IMPORTANT: Do not confuse a Job Template with a Jinja template. Jinja templates 
 .☑️ Task 1 - Creation of the Job Template
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . Click the *Templates* link in the *Resources* section of the sidebar
 . Click the *Add* dropdown button and select *Add job template*
@@ -35,7 +35,7 @@ NOTE: In the btn:[Controller] tab
 .☑️ Task 2 - Launch the new Template
 [%collapsible]
 =====
-NOTE: In the btn:[Controller] tab
+NOTE: In the Automation Controller browser tab.
 
 . Click the *Templates* link in the *Resources* section of the sidebar
 . You can launch it from this list, by clicking the *Rocket* icon, or
