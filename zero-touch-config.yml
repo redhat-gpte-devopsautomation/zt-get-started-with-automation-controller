@@ -39,12 +39,9 @@ antora:
       solveButton: true
 
 tabs:
-  - name: Controller
-    port: 8443
-    path: /#/login
-  - name: Test Controller
-    port: 8443
-    path: /controller/#/login
+  # - name: Controller
+  #   port: 8443
+  #   path: /#/login
   - name: VSCode Editor
     port: 8443
     path: /editor/?folder=/home/rhel/ansible-files/
