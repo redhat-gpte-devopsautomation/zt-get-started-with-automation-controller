@@ -10,51 +10,51 @@
     CONTROLLER_VERIFY_SSL: false
 
   tasks:
-    - name: Create a Workflow Template
+    - name: Check Workflow Template
       awx.awx.workflow_job_template:
         name: Your first workflow
-        description: Create a Workflow from previous Job Templates
-        organization: Default
-        inventory: Lab-Inventory
-        workflow_nodes:
-          - identifier: "Install Apache"
-            unified_job_template:
-              organization:
-                name: Default
-              name: "Install Apache"
-              type: job_template
-            credentials: []
-            related:
-              success_nodes:
-                - identifier: "Extended services"
-                - identifier: "Set motd"
-              failure_nodes: []
-              always_nodes: []
-              credentials: []
-          - identifier: "Extended services"
-            unified_job_template:
-              organization:
-                name: Default
-              name: "Extended services"
-              type: job_template
-            credentials: []
-            related:
-              success_nodes: []
-              failure_nodes: []
-              always_nodes: []
-              credentials: []
-          - identifier: "Set motd"
-            unified_job_template:
-              organization:
-                name: Default
-              name: "Set motd"
-              type: job_template
-            credentials: []
-            related:
-              success_nodes: []
-              failure_nodes: []
-              always_nodes: []
-              credentials: []
+        # description: Create a Workflow from previous Job Templates
+        # organization: Default
+        # inventory: Lab-Inventory
+        # workflow_nodes:
+        #   - identifier: Install Apache
+        #     unified_job_template:
+        #       organization:
+        #         name: Default
+        #       name: Install Apache
+        #       type: job_template
+        #     credentials: []
+        #     related:
+        #       success_nodes:
+        #         - identifier: Extended services
+        #         - identifier: Set motd
+        #       failure_nodes: []
+        #       always_nodes: []
+        #       credentials: []
+        #   - identifier: Extended services
+        #     unified_job_template:
+        #       organization:
+        #         name: Default
+        #       name: Extended services
+        #       type: job_template
+        #     credentials: []
+        #     related:
+        #       success_nodes: []
+        #       failure_nodes: []
+        #       always_nodes: []
+        #       credentials: []
+        #   - identifier: Set motd
+        #     unified_job_template:
+        #       organization:
+        #         name: Default
+        #       name: Set motd
+        #       type: job_template
+        #     credentials: []
+        #     related:
+        #       success_nodes: []
+        #       failure_nodes: []
+        #       always_nodes: []
+        #       credentials: []
       check_mode: true
       register: check_workflow
 

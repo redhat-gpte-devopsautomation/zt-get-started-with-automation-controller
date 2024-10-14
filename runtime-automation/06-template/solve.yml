@@ -17,7 +17,7 @@
         organization: Default
         state: present
         inventory: Lab-Inventory
-        become_enabled: true
+        # become_enabled: true
         playbook: apache.yml
         project: Apache playbooks
         credential: lab-credentials

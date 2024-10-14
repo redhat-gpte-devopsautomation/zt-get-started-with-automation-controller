@@ -6,10 +6,10 @@ antora:
   modules:
     - name: 01-intro
       label: Intro to the Laboratory
-      solveButton: true
+      solveButton: false
     - name: 02-dashboard
       label: 1.0 - Exploring the web-UI and Dashboard
-      solveButton: true
+      solveButton: false
     - name: 03-inventory
       label: 1.1 - Creating an Inventory
       solveButton: true
@@ -18,7 +18,7 @@ antora:
       solveButton: true
     - name: 05-credentials
       label: 1.3 - Get to know Credentials
-      solveButton: true
+      solveButton: false
     - name: 06-template
       label: 1.4 - Creating a Job Template
       solveButton: true
@@ -36,15 +36,16 @@ antora:
       solveButton: true
     - name: 11-recap-review
       label: Recap and review
-      solveButton: true
+      solveButton: false
 
 tabs:
   # - name: Controller
   #   port: 8443
   #   path: /#/login
-  - name: VSCode Editor
-    port: 8443
-    path: /editor/?folder=/home/rhel/ansible-files/
   - name: ">_Controller CLI"
     port: 443
     path: /tty1
+  - name: VSCode Editor
+    port: 8443
+    path: /editor/?folder=/home/rhel/ansible-files/
+

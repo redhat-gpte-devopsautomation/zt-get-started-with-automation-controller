@@ -16,25 +16,25 @@
         organization: "Default"
         state: "present"
         inventory: "Lab-Inventory"
-        become_enabled: true
+        # become_enabled: true
         playbook: "apache_template.yml"
         project: "Apache playbooks"
         credential: lab-credentials
         survey_enabled: true
-        survey_spec: >-
-          {
-            "name": "Apache Survey",
-            "description": "Configure page with username",
-            "spec": [
-              {
-                "question_name": "What’s your name?",
-                "type": "text",
-                "variable": "student_name",
-                "required": false,
-                "default": "Skippy"
-              }
-            ]
-          }
+        # survey_spec: >-
+        #   {
+        #     "name": "Apache Survey",
+        #     "description": "Configure page with username",
+        #     "spec": [
+        #       {
+        #         "question_name": "What’s your name?",
+        #         "type": "text",
+        #         "variable": "student_name",
+        #         "required": false,
+        #         "default": "Skippy"
+        #       }
+        #     ]
+        #   }
       check_mode: true
       register: check_survey
 

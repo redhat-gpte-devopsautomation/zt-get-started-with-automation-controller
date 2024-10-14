@@ -14,29 +14,29 @@
     - name: Create a Workflow Template
       awx.awx.workflow_job_template:
         name: Your first workflow
-        description: Create a Workflow from previous Job Templates
-        organization: Default
-        inventory: Lab-Inventory
+        # description: Create a Workflow from previous Job Templates
+        # organization: Default
+        # inventory: Lab-Inventory
         workflow_nodes:
-          - identifier: "Install Apache"
+          - identifier: Install Apache
             unified_job_template:
               organization:
                 name: Default
-              name: "Install Apache"
+              name: Install Apache
               type: job_template
             credentials: []
             related:
               success_nodes:
-                - identifier: "Extended services"
-                - identifier: "Set motd"
+                - identifier: Extended services
+                - identifier: Set motd
               failure_nodes: []
               always_nodes: []
               credentials: []
-          - identifier: "Extended services"
+          - identifier: Extended services
             unified_job_template:
               organization:
                 name: Default
-              name: "Extended services"
+              name: Extended services
               type: job_template
             credentials: []
             related:
@@ -44,11 +44,11 @@
               failure_nodes: []
               always_nodes: []
               credentials: []
-          - identifier: "Set motd"
+          - identifier: Set motd
             unified_job_template:
               organization:
                 name: Default
-              name: "Set motd"
+              name: Set motd
               type: job_template
             credentials: []
             related:
